@@ -1,0 +1,44 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.age-filters {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+
+  li {
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border: 1px solid red;
+
+    &.active {
+      background-color: red;
+      color: white;
+    }
+  }
+}
+
+.cost-filters {
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+  }
+}

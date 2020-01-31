@@ -1,0 +1,7 @@
+const UNITS = {
+  LOAD: "UNITS_LOAD",
+  LOAD_SUCCESS: "UNITS_LOAD_SUCCESS",
+  LOAD_FAIL: "UNITS_LOAD_FAIL"
+};
+
+export { UNITS };
